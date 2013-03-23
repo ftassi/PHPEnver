@@ -1,0 +1,18 @@
+{
+    "name": "ftassi/phpenver",
+    "minimum-stability" : "dev",
+    "description": "PHPEnver is a PHP porting of the great \"Enver\" from fvianello https://github.com/fvianello/enver",
+    "authors": [
+        {
+            "name": "Francesco Tassi",
+            "email": "tassi.francesco@gmail.com"
+        }
+    ],
+    "config": {
+      "bin-dir": "bin"
+    },
+    "autoload": {"psr-0": {"": "src"}},
+    "require-dev": {
+        "phpspec/phpspec2": "dev-master"
+    }
+}
