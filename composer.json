@@ -13,6 +13,7 @@
     },
     "autoload": {"psr-0": {"": "src"}},
     "require-dev": {
-        "phpspec/phpspec2": "dev-master"
+        "phpspec/phpspec2": "dev-master",
+        "mikey179/vfsStream": "dev-master"
     }
 }

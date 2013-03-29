@@ -1,9 +1,39 @@
 {
-    "hash": "844ac26fcac76ed62edd84fc22ab39c7",
+    "hash": "40aeea723bc5120e5526acfd246f35ff",
     "packages": [
 
     ],
     "packages-dev": [
+        {
+            "name": "mikey179/vfsStream",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikey179/vfsStream.git",
+                "reference": "06f7338e87b0b4469d28215e57417cd3ff70488b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/06f7338e87b0b4469d28215e57417cd3ff70488b",
+                "reference": "06f7338e87b0b4469d28215e57417cd3ff70488b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "org\\bovigo\\vfs\\": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "homepage": "http://vfs.bovigo.org/",
+            "time": "2013-02-26 22:07:16"
+        },
         {
             "name": "mockery/mockery",
             "version": "0.7.2",
@@ -154,12 +184,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "256b00333ab08ce1f6264152b22e08e4138275eb"
+                "reference": "v2.1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/256b00333ab08ce1f6264152b22e08e4138275eb",
-                "reference": "256b00333ab08ce1f6264152b22e08e4138275eb",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.1.9",
+                "reference": "v2.1.9",
                 "shasum": ""
             },
             "require": {
@@ -196,12 +226,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "v2.1.8"
+                "reference": "v2.1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/v2.1.8",
-                "reference": "v2.1.8",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/v2.1.9",
+                "reference": "v2.1.9",
                 "shasum": ""
             },
             "require": {
@@ -245,12 +275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "69858f868c0caabe3d859c448f98d249541c0489"
+                "reference": "v2.1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/69858f868c0caabe3d859c448f98d249541c0489",
-                "reference": "69858f868c0caabe3d859c448f98d249541c0489",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/v2.1.9",
+                "reference": "v2.1.9",
                 "shasum": ""
             },
             "require": {
@@ -286,7 +316,8 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "phpspec/phpspec2": 20
+        "phpspec/phpspec2": 20,
+        "mikey179/vfsstream": 20
     },
     "platform": [
 
