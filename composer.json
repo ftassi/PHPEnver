@@ -12,8 +12,11 @@
       "bin-dir": "bin"
     },
     "autoload": {"psr-0": {"": "src"}},
+    "require": {
+      "symfony/console" : "2.2.0"
+    },
     "require-dev": {
-        "phpspec/phpspec2": "dev-master",
+        "phpspec/phpspec2": "dev-develop",
         "mikey179/vfsStream": "dev-master"
     }
 }
